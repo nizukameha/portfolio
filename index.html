@@ -13,23 +13,33 @@
 
 <body>
     <header>
-        <ul class="nav nav-tabs justify-content-center">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Accueil</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Compétences</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Projets</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Parcours</a>
-            </li>
-          </ul>
+      <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Portfolio</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Accueil</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Compétences</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Projets</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">A Propos</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     </header>
     <main>
-        <div class="container-fluid">
+        <div class="container-fluid home">
             <div class="row h-100 align-items-center">
                 <section class="col-12 col-md-6 d-flex flex-column align-items-center">
                     <h1>Axel Reviron</h1>
@@ -37,7 +47,8 @@
                 </section>
                 <section class="col-12 col-md-6 d-flex flex-column align-items-center">
                     <h2>Développeur web & web mobile</h2>
-                    <p></p>
+                    <p>lorem</p>
+                    <button class="btn btn-primary btn-lg">Télécharger mon CV</button>
                 </section>
             </div>
         </div>
