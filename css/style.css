@@ -1,0 +1,9 @@
+.img-me {
+    border-radius: 50%;
+}
+section {
+    border: 1px solid black;
+}
+.container-fluid {
+    height: 100vh;
+}
