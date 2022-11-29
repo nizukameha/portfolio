@@ -1,9 +1,19 @@
 .img-me {
     border-radius: 50%;
 }
-section {
+/*section {
     border: 1px solid black;
-}
+}*/
 .home {
     height: 100vh;
+}
+button a {
+    text-decoration: none;
+    color: white;
+}
+button a:hover {
+    color: white;
+}
+button a:visited {
+    color: white;
 }
