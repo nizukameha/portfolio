@@ -17,14 +17,20 @@ button a:hover {
 button a:visited {
     color: white;
 }
-.link img {
+.links img {
     width: 30px;
     height: 30px;
+}
+.link img:hover {
+    scale: 1.1;
 }
 li {
     list-style-type: none;
 }
+.competence {
+    height: 100px;
+}
 .competence img {
-    height: 120px;
+    height: 100px;
     width: auto;
 }
