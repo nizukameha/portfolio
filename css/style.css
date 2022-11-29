@@ -17,3 +17,10 @@ button a:hover {
 button a:visited {
     color: white;
 }
+.link img {
+    width: 30px;
+    height: 30px;
+}
+li {
+    list-style-type: none;
+}
