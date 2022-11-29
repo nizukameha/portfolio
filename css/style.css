@@ -24,3 +24,7 @@ button a:visited {
 li {
     list-style-type: none;
 }
+.competence img {
+    height: 120px;
+    width: auto;
+}
