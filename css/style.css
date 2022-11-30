@@ -34,3 +34,6 @@ li {
     height: 100px;
     width: auto;
 }
+.competence img:hover {
+    filter: drop-shadow(0 0mm 3mm rgb(179, 179, 179));
+}
