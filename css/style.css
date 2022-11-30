@@ -64,3 +64,7 @@ li {
 .projet-img img:hover {
     scale: 1.1;
 }
+.apropos-img {
+    height: 200px;
+    width: auto;
+}
