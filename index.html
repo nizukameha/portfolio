@@ -13,9 +13,9 @@
   <link rel="stylesheet" href="css/style.css">
   <title>Portfolio</title>
 </head>
-
 <body>
   <header>
+    <!-- NAVBAR -->
     <nav class="navbar navbar-expand-lg" id="top">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">Portfolio</a>
@@ -35,7 +35,7 @@
               <a class="nav-link" href="#projets">Projets</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">A Propos</a>
+              <a class="nav-link" href="apropos">A Propos</a>
             </li>
           </ul>
         </div>
@@ -48,7 +48,7 @@
         <img src="img/arrow-up.svg" alt="arrow">
       </a>
     </div>
-
+    <!-- SECTION PRINCIPALE -->
     <div class="container-fluid home">
       <div class="row vh-100 d-flex align-items-center">
         <div class="col-12 col-md-6 d-flex flex-column align-items-md-center text-center">
@@ -64,6 +64,7 @@
         </section>
       </div>
     </div>
+    <!-- SECTION COMPETENCES -->
     <div class="container-fluid competence pb-5">
       <div class="row vh-75 g-5 my-3 mx-5">
         <h2 class="text-center display-4 mt-5" id="competence">Compétences</h2>
@@ -79,18 +80,21 @@
         <div class="col-6 col-md-3 competence-img d-flex justify-content-center">
           <img src="img/competences/php.png" alt="php">
         </div>
-        <div class="col-6 col-md-4 competence-img d-flex justify-content-center">
+        <div class="col-6 col-md-3 competence-img d-flex justify-content-center">
           <img src="img/competences/bootstrap.png" alt="bootstrap">
         </div>
-        <div class="col-6 col-md-4 competence-img d-flex justify-content-center">
+        <div class="col-6 col-md-3 competence-img d-flex justify-content-center">
           <img src="img/competences/react2.png" alt="react">
         </div>
-        <div class="col-6 col-md-4 competence-img d-flex justify-content-center">
+        <div class="col-6 col-md-3 competence-img d-flex justify-content-center">
           <img src="img/competences/symfony.png" alt="symfony">
+        </div>
+        <div class="col-6 col-md-3 competence-img d-flex justify-content-center">
+          <img src="img/competences/wordpress.png" alt="wordpress">
         </div>
       </div>
     </div>
-
+    <!-- SECTION PROJETS -->
     <div class="container-fluid pb-5">
       <div class="row vh-75 g-5 my-3 mx-5">
         <h2 class="text-center display-4 mt-5" id="projets">Projets</h2>
@@ -108,8 +112,35 @@
         </div>
       </div>
     </div>
+    <!-- SECTION A PROPOS -->
+    <div class="container-fluid competence pb-5">
+      <div class="row vh-75 g-5 my-3 mx-5d-flex align-items-center flex-column">
+        <h2 class="text-center display-4 mt-5" id="apropos">A propos</h2>
+        <img src="img/apropos/openclassrooms.png" class="apropos-img" alt="openclassrooms">
+        <div class="text-center">
+          <h3>OpenClassrooms</h3>
+          <h4>Formation Prep'Fullstack</h4>
+          <p>Wordpress, php, MySQL, site responsive</p>
+        </div>
+        <img src="img/apropos/dotted-line.png" class="apropos-img" alt="dotted-line">
+        <img src="img/apropos/42.png" class="apropos-img" alt="42">
+        <div class="text-center">
+          <h3>École 42</h3>
+          <h4>Piscine C</h4>
+          <p>Shell et programmes en C</p>
+        </div>
+        <img src="img/apropos/dotted-line.png" class="apropos-img" alt="dotted-line">
+        <img src="img/apropos/simplon.png" class="apropos-img" alt="simplon">
+        <div class="text-center">
+          <h3>Simplon</h3>
+          <h4>Formation Développeur Web et Web Mobile</h4>
+          <p>Bootstrap, React, POO, Symfony, PDO, ORM</p>
+        </div>
+      </div>
+    </div>
   </main>
   <footer>
+    <!-- FOOTER -->
     <hr>
     <div class="row">
       <div class="col-12 links">
@@ -140,5 +171,4 @@
     </div>
   </footer>
 </body>
-
 </html>
