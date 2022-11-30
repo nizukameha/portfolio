@@ -37,7 +37,7 @@ button a:visited {
 li {
     list-style-type: none;
 }
-.competence {
+.competence, .apropos {
     background-color: rgb(235, 235, 235);
 }
 .competence-img {
@@ -64,7 +64,14 @@ li {
 .projet-img img:hover {
     scale: 1.1;
 }
-.apropos-img {
+.apropos-img, .apropos-img-o {
     height: 200px;
     width: auto;
+    margin: 5px;
+}
+.apropos-img-o {
+    margin-top: 100px;
+}
+hr {
+    margin-top: 0;
 }
