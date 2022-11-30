@@ -1,3 +1,19 @@
+.navbar {
+    background-color: rgb(235, 235, 235);
+}
+#go-to-top {
+    position: fixed;
+    width: 50px;
+    height: auto;
+    bottom: 25px;
+    right: 25px;
+}
+#go-to-top:hover {
+    scale: 1.1;
+}
+#go-to-top img {
+    width: 50px;
+}
 .img-me {
     border-radius: 50%;
 }
@@ -22,15 +38,29 @@ li {
     list-style-type: none;
 }
 .competence {
+    background-color: rgb(235, 235, 235);
+}
+.competence-img {
     height: 100px;
 }
-.competence img {
+.competence-img img {
     height: 100px;
     width: auto;
 }
-.competence img:hover {
-    filter: drop-shadow(0 0mm 3mm rgb(179, 179, 179));
+.competence-img img:hover {
+    filter: drop-shadow(0 0mm 2mm rgb(125, 125, 125));
 }
 .card-img-top {
     height: 300px;
+}
+.projet-img {
+    height: 400px;
+}
+.projet-img img {
+    height: 300px;
+    width: auto;
+    border: 1px solid black;
+}
+.projet-img img:hover {
+    scale: 1.1;
 }
