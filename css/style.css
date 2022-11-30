@@ -1,12 +1,6 @@
 .img-me {
     border-radius: 50%;
 }
-/*section {
-    border: 1px solid black;
-}*/
-.home {
-    height: 100vh;
-}
 button a {
     text-decoration: none;
     color: white;
@@ -36,4 +30,7 @@ li {
 }
 .competence img:hover {
     filter: drop-shadow(0 0mm 3mm rgb(179, 179, 179));
+}
+.card-img-top {
+    height: 300px;
 }
