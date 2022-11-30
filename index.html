@@ -16,7 +16,7 @@
 
 <body>
   <header>
-    <nav class="navbar navbar-expand-lg bg-light">
+    <nav class="navbar navbar-expand-lg" id="top">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">Portfolio</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -43,6 +43,12 @@
     </nav>
   </header>
   <main>
+    <div id="go-to-top">
+      <a href="#top">
+        <img src="img/arrow-up.svg" alt="arrow">
+      </a>
+    </div>
+
     <div class="container-fluid home">
       <div class="row vh-100 d-flex align-items-center">
         <div class="col-12 col-md-6 d-flex flex-column align-items-md-center text-center">
@@ -58,72 +64,47 @@
         </section>
       </div>
     </div>
-    <div class="row vh-75 g-5 my-3 mx-5">
-      <h2 class="text-center display-4 mt-5" id="competence">Compétences</h2>
-      <div class="col-6 col-md-3 competence d-flex justify-content-center">
-        <img src="img/competences/html.png" alt="html">
-      </div>
-      <div class="col-6 col-md-3 competence d-flex justify-content-center">
-        <img src="img/competences/css.png" alt="css">
-      </div>
-      <div class="col-6 col-md-3 competence d-flex justify-content-center">
-        <img src="img/competences/javascript.png" alt="javascript">
-      </div>
-      <div class="col-6 col-md-3 competence d-flex justify-content-center">
-        <img src="img/competences/php.png" alt="php">
-      </div>
-      <div class="col-6 col-md-4 competence d-flex justify-content-center">
-        <img src="img/competences/bootstrap.png" alt="bootstrap">
-      </div>
-      <div class="col-6 col-md-4 competence d-flex justify-content-center">
-        <img src="img/competences/react.png" alt="react">
-      </div>
-      <div class="col-6 col-md-4 competence d-flex justify-content-center">
-        <img src="img/competences/symfony.png" alt="symfony">
+    <div class="container-fluid competence pb-5">
+      <div class="row vh-75 g-5 my-3 mx-5">
+        <h2 class="text-center display-4 mt-5" id="competence">Compétences</h2>
+        <div class="col-6 col-md-3 competence-img d-flex justify-content-center">
+          <img src="img/competences/html.png" alt="html">
+        </div>
+        <div class="col-6 col-md-3 competence-img d-flex justify-content-center">
+          <img src="img/competences/css.png" alt="css">
+        </div>
+        <div class="col-6 col-md-3 competence-img d-flex justify-content-center">
+          <img src="img/competences/javascript.png" alt="javascript">
+        </div>
+        <div class="col-6 col-md-3 competence-img d-flex justify-content-center">
+          <img src="img/competences/php.png" alt="php">
+        </div>
+        <div class="col-6 col-md-4 competence-img d-flex justify-content-center">
+          <img src="img/competences/bootstrap.png" alt="bootstrap">
+        </div>
+        <div class="col-6 col-md-4 competence-img d-flex justify-content-center">
+          <img src="img/competences/react2.png" alt="react">
+        </div>
+        <div class="col-6 col-md-4 competence-img d-flex justify-content-center">
+          <img src="img/competences/symfony.png" alt="symfony">
+        </div>
       </div>
     </div>
-    <div class="row g-5 my-5 mx-5">
-      <h2 class="text-center display-4 mt-5" id="projets">Projets</h2>
-      <div class="col-12 col-md-4 d-flex justify-content-center">
-        <div class="card w-75">
-          <img src="img/guts2.jpeg" class="card-img-top" alt="">
-          <div class="card-body">
-            <h5 class="card-title">Un super projet</h5>
-            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non corporis reprehenderit
-              dolores, ut magni fugit modi blanditiis ea odio molestias reiciendis quod quo quos mollitia sint ad
-              eligendi aliquam in?</p>
-            <div class="d-flex justify-content-center">
-              <a href="#" class="btn btn-primary">Voir le projet</a>
-            </div>
-          </div>
+
+    <div class="container-fluid pb-5">
+      <div class="row vh-75 g-5 my-3 mx-5">
+        <h2 class="text-center display-4 mt-5" id="projets">Projets</h2>
+        <div class="col-12 col-md-6 projet-img d-flex justify-content-center">
+          <img src="img/guts2.jpeg" alt="html">
         </div>
-      </div>
-      <div class="col-12 col-md-4 d-flex justify-content-center">
-        <div class="card w-75">
-          <img src="img/guts2.jpeg" class="card-img-top" alt="">
-          <div class="card-body">
-            <h5 class="card-title">Un projet encore plus cool</h5>
-            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non corporis reprehenderit
-              dolores, ut magni fugit modi blanditiis ea odio molestias reiciendis quod quo quos mollitia sint ad
-              eligendi aliquam in?</p>
-            <div class="d-flex justify-content-center">
-              <a href="#" class="btn btn-primary">Voir le projet</a>
-            </div>
-          </div>
+        <div class="col-12 col-md-6 projet-img d-flex justify-content-center">
+          <img src="img/guts2.jpeg" alt="css">
         </div>
-      </div>
-      <div class="col-12 col-md-4 d-flex justify-content-center">
-        <div class="card w-75">
-          <img src="img/guts2.jpeg" class="card-img-top" alt="">
-          <div class="card-body">
-            <h5 class="card-title">Le 3eme va vous surprendre</h5>
-            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non corporis reprehenderit
-              dolores, ut magni fugit modi blanditiis ea odio molestias reiciendis quod quo quos mollitia sint ad
-              eligendi aliquam in?</p>
-            <div class="d-flex justify-content-center">
-              <a href="#" class="btn btn-primary">Voir le projet</a>
-            </div>
-          </div>
+        <div class="col-12 col-md-6 projet-img d-flex justify-content-center">
+          <img src="img/guts2.jpeg" alt="javascript">
+        </div>
+        <div class="col-12 col-md-6 projet-img d-flex justify-content-center">
+          <img src="img/guts2.jpeg" alt="php">
         </div>
       </div>
     </div>
