@@ -2,7 +2,19 @@
     font-family: 'Ubuntu', sans-serif;
 }
 .navbar {
-    background-color: rgb(235, 235, 235);
+    background-color: rgb(108, 78, 144);
+}
+.navbar a {
+    color: white;
+}
+.home {
+    color: rgb(255, 255, 255)!important;
+}
+.other {
+    color: white;
+}
+.other:hover {
+    color: rgb(255, 255, 255);
 }
 #go-to-top {
     position: fixed;
@@ -43,23 +55,25 @@ li {
     list-style-type: none;
 }
 .competence, .apropos {
-    background-color: rgb(235, 235, 235);
+    background-color: rgb(240, 240, 240);
 }
 .competence-img {
     height: 100px;
+    padding: 0;
 }
 .competence-img img {
     height: 100px;
     width: auto;
 }
 .competence-img img:hover {
-    filter: drop-shadow(0 0mm 2mm rgb(125, 125, 125));
+    filter: drop-shadow(0 0mm 2mm rgb(77, 45, 115));
 }
 .card-img-top {
     height: 300px;
 }
-#projets, #competence {
+#projets, #competence, #apropos {
     margin-bottom: 70px;
+    color: rgb(77, 45, 115);
 }
 .projet-img {
     height: 400px;
@@ -89,4 +103,7 @@ hr {
 }
 footer nav ul {
     padding-left: 0;
+}
+.svg-filter {
+    filter: invert(16%) sepia(79%) saturate(1092%) hue-rotate(240deg) brightness(98%) contrast(92%);
 }
