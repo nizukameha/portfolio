@@ -56,6 +56,9 @@ li {
 .card-img-top {
     height: 300px;
 }
+#projets, #competence {
+    margin-bottom: 70px;
+}
 .projet-img {
     height: 400px;
 }
@@ -63,6 +66,7 @@ li {
     height: 300px;
     width: auto;
     border: 1px solid black;
+    border-radius: 5%;
 }
 .projet-img img:hover {
     scale: 1.1;
@@ -80,4 +84,7 @@ hr {
 }
 .simplon-img {
     border-radius: 50%;
+}
+footer nav ul {
+    padding-left: 0;
 }
