@@ -114,20 +114,21 @@ footer nav ul {
     filter: invert(16%) sepia(79%) saturate(1092%) hue-rotate(240deg) brightness(98%) contrast(92%);
 }
 .slider {
-    border: 1px solid red;
     width: 950px;
     height: auto;
     overflow: hidden;
 }
 .slider-content{
-    border: 1px solid blue;
     width: 1850px;
     animation-name: slider;
-    animation-duration: 5s;
+    animation-duration: 10s;
     position: relative;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
     animation-direction: alternate;
+}
+.slider-content img {
+    border: 1px solid black;
 }
 .slider-content:hover {
     animation-play-state: paused;
@@ -145,9 +146,6 @@ footer nav ul {
 }
 .projet-mobile {
     display: none;
-}
-.slider-projet {
-
 }
 @media (max-width: 500px) {
     .projet-mobile {
