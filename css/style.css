@@ -31,7 +31,13 @@
 #go-to-top img {
     width: 50px;
 }
+.logo {
+    width: 50%;
+    height: auto;
+    margin-bottom: 50px;
+}
 .img-me {
+    width: 60%;
     border-radius: 50%;
 }
 button a {
@@ -107,3 +113,33 @@ footer nav ul {
 .svg-filter {
     filter: invert(16%) sepia(79%) saturate(1092%) hue-rotate(240deg) brightness(98%) contrast(92%);
 }
+.slider {
+    border: 1px solid red;
+    width: 950px;
+    height: auto;
+    overflow: hidden;
+}
+.slider-content{
+    border: 1px solid blue;
+    width: 1850px;
+    animation-name: slider;
+    animation-duration: 5s;
+    position: relative;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+}
+.slider-content:hover {
+    animation-play-state: paused;
+  }
+.img-slider {
+    width: 300px;
+}
+@keyframes slider {
+    0% {
+        left: 0%;
+    }
+    100% {
+        left: -100%;
+    }
+  }
