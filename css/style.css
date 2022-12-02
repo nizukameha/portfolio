@@ -142,4 +142,18 @@ footer nav ul {
     100% {
         left: -100%;
     }
-  }
+}
+.projet-mobile {
+    display: none;
+}
+.slider-projet {
+
+}
+@media (max-width: 500px) {
+    .projet-mobile {
+        display: block;
+    }
+    .slider-projet {
+        display: none;
+    }
+}
