@@ -38,7 +38,9 @@
 }
 .img-me {
     width: 60%;
+    height: 50%;
     border-radius: 50%;
+    filter: drop-shadow(0 0mm 2mm rgb(77, 45, 115));
 }
 button a {
     text-decoration: none;
