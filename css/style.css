@@ -150,6 +150,15 @@ footer nav ul {
     display: none;
 }
 @media (max-width: 500px) {
+    .img-me {
+        filter: drop-shadow(0 0mm 0mm rgba(0, 0, 0, 0));
+    }
+    .competence-img img:hover {
+        filter: drop-shadow(0 0mm 0mm rgba(0, 0, 0, 0));
+    }
+    .projet-img img:hover {
+        scale: 1;
+    }
     .projet-mobile {
         display: block;
     }
