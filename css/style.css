@@ -165,7 +165,9 @@ footer nav ul {
     opacity: 1;
     transform: none;
 }
-
+.projet-link-mobile {
+    display: none;
+}
 @media (max-width: 500px) {
     .img-me {
         filter: drop-shadow(0 0mm 0mm rgba(0, 0, 0, 0));
@@ -181,6 +183,12 @@ footer nav ul {
     }
     .projet-mobile {
         display: block;
+    }
+    .projet-link-mobile {
+        display: inline;
+    }
+    .projet-link-desktop {
+        display: none;
     }
     .slider-projet {
         display: none;
