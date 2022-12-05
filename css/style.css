@@ -40,7 +40,7 @@
     width: 60%;
     height: 50%;
     border-radius: 50%;
-    filter: drop-shadow(0 0mm 2mm rgb(77, 45, 115));
+    filter: drop-shadow(0 0mm 4mm rgba(76, 45, 115, 0.683));
 }
 button a {
     text-decoration: none;
@@ -74,7 +74,7 @@ li {
     width: auto;
 }
 .competence-img img:hover {
-    filter: drop-shadow(0 0mm 2mm rgb(77, 45, 115));
+    filter: drop-shadow(0 0mm 2mm rgba(76, 45, 115, 0.683))
 }
 .card-img-top {
     height: 300px;
@@ -96,7 +96,7 @@ li {
     scale: 1.1;
 }
 .apropos-img, .apropos-img-o {
-    height: 200px;
+    height: 150px;
     width: auto;
     margin: 5px;
 }
@@ -149,6 +149,23 @@ footer nav ul {
 .projet-mobile {
     display: none;
 }
+.competence-animation {
+    animation-name: competence;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .competence-animation {
+    transition: opacity 2s linear;
+  }
+}
+
+.competence-animation-transition {
+    opacity: 1;
+    transform: none;
+}
+
 @media (max-width: 500px) {
     .img-me {
         filter: drop-shadow(0 0mm 0mm rgba(0, 0, 0, 0));
@@ -158,6 +175,9 @@ footer nav ul {
     }
     .projet-img img:hover {
         scale: 1;
+    }
+    .apropos-img, .apropos-img-o {
+        height: 100px;
     }
     .projet-mobile {
         display: block;
