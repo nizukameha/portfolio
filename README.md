@@ -1,6 +1,5 @@
 # Portfolio
 Ceci est le premier projet de ma formation : _"Développeur et Développeur Web Mobile"_ chez Simplon. Ce portfolio met en avant mes projets, les technologies que j'utilise et mon parcours. J'ai développé le site avec HTML, CSS et JS. J'ai utilisé Booststrap et des medias queries pour le responsive.
-## Maquette
 ## Sections
 #### Accueil
 Il y a une navbar (dans le header), une photo, un logo et une description. Un bouton permet de télécharger mon CV.
@@ -11,9 +10,8 @@ Les projets défilent sous la forme d'un carrousel, il arrete son mouvement lors
 ### A propos
 Cette section regroupe mes expériences en rapport avec le développement.
 ### Footer
-Différents liens sont mis en avant :
-
-- Github
-- Gitlab
-- E-mail
-- Linkedin
+Différents réseaux sont mis en avant :
+Github, Gitlab, E-mail, Linkedin.
+## Liens
+- [Maquette](https://www.figma.com/file/dwEUbiJT7dkX2S4Gke5WYy/Portfolio?node-id=0%3A1&t=gj7uzCkgKrNGF3wd-1)
+- [Portfolio](axel-reviron.fr)
