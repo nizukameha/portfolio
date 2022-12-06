@@ -58,7 +58,7 @@ button a:visited {
 }
 .links img {
     width: 30px;
-    height: 30px;
+    height: auto;
 }
 .link img:hover {
     scale: 1.1;
