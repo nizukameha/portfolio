@@ -16,6 +16,10 @@
 .other:hover {
     color: rgb(255, 255, 255);
 }
+.button-cv {
+    background-color: rgb(77, 45, 115);
+    color: white;
+}
 #go-to-top {
     position: relative;
     width: 50px;
