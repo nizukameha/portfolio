@@ -100,7 +100,7 @@ li {
 }
 
 .competence-img img:hover {
-    filter: drop-shadow(0 0mm 2mm rgba(76, 45, 115, 0.683))
+    filter: drop-shadow(0 0mm 2mm rgba(108, 78, 144, 0.5));
 }
 
 .card-img-top {
