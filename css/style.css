@@ -228,7 +228,7 @@ footer nav ul {
     width: 410px;
     height: 240px;
     margin: 40px auto;
-    perspective: 1000px;
+    perspective: 800px;
 }
 
 .previous-button:hover,
