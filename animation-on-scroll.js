@@ -25,18 +25,18 @@ CARROUSEL
 let carousel = document.querySelector('.carousel');
 let cellCount = 9;
 let selectedIndex = 0;
-// Fait tourner le carrousel
+// Turn carrousel
 function rotateCarousel() {
   let angle = selectedIndex / cellCount * -360;
   carousel.style.transform = 'translateZ(-550px) rotateY(' + angle + 'deg)';
 }
-// Bouton précédent
+// Previous Button
 let prevButton = document.querySelector('.previous-button');
 prevButton.addEventListener('click', function () {
   selectedIndex--;
   rotateCarousel();
 });
-// Bouton Suivant
+// Next Button
 let nextButton = document.querySelector('.next-button');
 nextButton.addEventListener('click', function () {
   selectedIndex++;
@@ -46,15 +46,15 @@ nextButton.addEventListener('click', function () {
 let scene = document.querySelector('.scene');
 
 let onCarrousel = false;
-// Quand la souris entre dans la div la variable change, le carrousel doit s'arreter
+// When the cursor enter in the div, it change the value of the variable. So the carousel stop
 scene.addEventListener('mouseover', function () {
   onCarrousel = true;
 });
-// Quand la souris sort de la div la variable change, le carrousel doit reprendre
+// When the cursor quit the div, it change the value of the variable. So the carousel start
 scene.addEventListener('mouseout', function () {
   onCarrousel = false;
 });
-// Par défaut le carrousel tourne automatiquement
+// By default the carousel is moving
 setInterval(() => {
   if (onCarrousel == false) {
     selectedIndex++;
