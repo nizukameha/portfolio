@@ -6,7 +6,7 @@ Il y a une navbar (dans le header), une photo, un logo et une description. Un bo
 #### Compétences
 Cette section regroupe les différentes technologies utilisées. Une transition se déclenche sur cette section pour faire varier son opacité avec CSS et JS.
 #### Projets
-Les projets défilent sous la forme d'un carrousel, il arrete son mouvement lors du passage de la souris. Le carrousel a été fait avec CSS.
+Les projets défilent sous la forme d'un carrousel, il arrete son mouvement lors du passage de la souris. Le carrousel a été fait avec JS.
 ### A propos
 Cette section regroupe mes expériences en rapport avec le développement.
 ### Footer
