@@ -26,7 +26,10 @@
     background-color: rgb(77, 45, 115);
     color: white;
 }
-
+.button-cv:hover {
+    background-color: rgb(77, 45, 115);
+    color: white;
+}
 #go-to-top {
     position: relative;
     width: 50px;
