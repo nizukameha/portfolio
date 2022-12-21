@@ -58,7 +58,7 @@
     width: 60%;
     height: 50%;
     border-radius: 50%;
-    filter: drop-shadow(0 0mm 4mm rgba(76, 45, 115, 0.683));
+    filter: drop-shadow(0 0mm 5mm rgba(76, 45, 115, 0.32));
 }
 
 button a {
