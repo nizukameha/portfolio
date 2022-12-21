@@ -61,6 +61,10 @@
     filter: drop-shadow(0 0mm 5mm rgba(76, 45, 115, 0.32));
 }
 
+.projet-img {
+    width: 100%;
+    height: 100%;
+}
 button a {
     text-decoration: none;
     color: white;
