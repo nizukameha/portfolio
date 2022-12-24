@@ -1,5 +1,5 @@
 # Portfolio
-Ceci est le premier projet de ma formation : _"Développeur et Développeur Web Mobile"_ chez Simplon. Ce portfolio met en avant mes projets, les technologies que j'utilise et mon parcours. J'ai développé le site avec HTML, CSS et JS. J'ai utilisé Booststrap et des medias queries pour le responsive.
+Ceci est le premier projet de ma formation : [Développeur et Développeur Web Mobile](https://simplon.co/formation/developpeur-web-et-web-mobile/11) chez Simplon. Ce portfolio met en avant mes projets, les technologies que j'utilise et mon parcours. J'ai développé le site avec HTML, CSS et JS. J'ai utilisé Booststrap et des medias queries pour le responsive.
 ## Sections
 #### Accueil
 Il y a une navbar (dans le header), une photo, un logo et une description. Un bouton permet de télécharger mon CV.
