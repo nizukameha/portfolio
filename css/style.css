@@ -261,10 +261,21 @@ footer nav ul {
 }
 
 .carousel img {
-    width: 80%;
+    width: 70%;
     height: auto;
 }
-
+.landingPage a {
+    border-radius: 5%;
+    background-color: black;
+}
+.carousel img .landingPageImg {
+    width: 70%;
+    height: auto;
+}
+.quizImg {
+    width: 100%;
+    height: auto;
+}
 .carousel__cell:hover {
     filter: none;
 }
